@@ -1,0 +1,32 @@
+<!--Não fiz as imagens, então é só ilustrativo o código-->
+<!--Haveria 3 imagens, a primeira seria uma grande por padraão,
+ a segunda seria uma média q seria mostrada caso a telad do usu ário fosse menor, 
+ e a terceir é quena e aparece caso a tela seja ainda menor-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <p>Cada imagem é aberta para um tamanho de tela específico</p>
+    <picture>
+        <source media="max-width: 750px" srcset="imagem pequena" type="image/png">
+        <source media="max-width: 1050px" srcset="imagem média" type="image/png">
+        <img src="imagem grande" alt="Imagem Flexível">
+    </picture>
+    
+    <h1>Audio</h1>
+    <p> Reproduziondo música/audio no HTML5</p>
+    <audio src="happy-mistake.mp3" controls autoplay></audio>
+    <!--ou-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="happy-mistake.mp3" type="audio/mpeg">
+        <source src="happy-mistake.ogg" type="audio/ogg">
+        <source src="happy-mistake.wav" type="audio/wav"> 
+        <p>Infelizmente o sue navegador não carrega o áudio, se quiser pode instalálo aqui: <a href="happy-mistake.mp3">baixar</a></p>
+    </audio>
+</body>
+</html>

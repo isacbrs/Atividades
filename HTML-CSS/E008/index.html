@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de texto</title>
+    <style>
+        mark {
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formatações</h1>
+    
+    <h2>Negrito/Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag <b>B</b> (não semantica)</p>
+    <p>Já nesta frase temos um <strong>termo em negrito</strong> usando a tag <strong>strong</strong></p>
+    
+    <h2>Italico / Ênfase</h2>
+    <p>Nesta frase temos um <i>termo em italico usando</i> a tag <strong>i</strong> (sem semantica)</p>
+    <p>Já nesta frase temos um <em>termo em italico usando</em> a tag <strong>em</strong></p>
+
+    <h2>Texto Marcado</h2>
+    <p>Nesta frase temos um <mark>termo marcado</mark> usando a tag <strong>mark</strong></p>
+    <p>Nesta frase temos um <mark style="background-color: brown;">termo marcado</mark> usando a tag mark mas com o estilo especificamente para essa parte</p>
+    
+    <h2>Texto Pequeno</h2>
+    <p>Nesta frase temos um <small>termo pequeno</small> usando a tag <strong>small</strong></p>
+
+    <h2>Texto Deletado</h2>
+    <p>Nesta frase temos um <del>termo como excluído</del> usando a tag <strong>del</strong> </p>
+
+    <h2>Texto Inserido</h2>
+    <p>Nesta frase temos um <ins>termo como inserido</ins> usando a tag <strong>ins</strong>(não semantico)</p>
+    <p>Nesta frase temos um <u>termo como inserido</u> usando a tag <strong>u</strong></p>
+    
+    <h2>Texto Sobrescrito</h2>
+    <p>Nesta frase temos um <sup>termo sobrescrito</sup> usando a tag <strong>sup</strong></p>
+
+    <h2>Texto Subscrito</h2>
+    <p>Nesta frase temos um <sub>termo subescrito</sub> usando a tag <strong>sub</strong></p>
+
+        <h2>Código-Fonte</h2>
+    <p>Nesta frase tesmos um <code>termo no formato codigo</code> usando a tag <strong>code</strong></p>
+
+    <h2>Pré formatação/Código</h2>
+    <p><pre><code>python   
+   num = int(input("Digite um númeor"))
+   if num % 2 = 0:
+     print("O número é par") 
+   else:
+     print("O númeor é impar")   
+</code></pre> usando a tag <strong>pre</strong> antes e depois de <strong>code</strong></p>
+    
+    <h2>Citáção</h2>
+    <p>Nesta frase temos um <q>termo citação</q> usando a tag <strong>q</strong></p>
+
+    <h2>Citações Completas</h2>
+    <p>Nesta frase temos uma citação usando a tag <strong>Blockquote</strong></p>
+    <blockquote cite="https://www.pensador.com/frases_romanticas/">
+        Se tua vida depender do meu amor, viverás além da vida, pois te amo além do amor.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Nesta frase temos uma abreviação: <abbr title="HyperText Markup Language">HTML</abbr> usando a tag <strong>abbr</strong> </p>
+
+    <h2>Inversão</h2>
+    <p>Nesta frase temos um <bdo dir="rtl">temo invertido</bdo> usando a tag <strong>bdo:r</strong></p>
+</body>
+</html>
