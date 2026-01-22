@@ -1,0 +1,8 @@
+n1= input ('Digite algo, e falarei oque é:')
+print(type(n1)) 
+print ("é um número?",n1.isnumeric())
+print ("é apenas uma letra?",n1.isalpha())
+print ("é um alfanumérico?",n1.isalnum())
+print ("está em maiúsculo?",n1.isupper())
+print ("é minusculo?",n1.islower())
+print ("está em branco?", n1.isspace())

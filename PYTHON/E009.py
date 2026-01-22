@@ -1,0 +1,2 @@
+n= input("Digite um numero inteiro:")
+print("A tabuada do numero {0} é: 1x{0}={1}, 2x{0}={2}, 3x{0}={3}, 4x{0}={4}, 5x{0}={5}, 6x{0}={6}, 7x{0}={7}, 8x{0}={8}, 9x{0}={9}, 10x{0}={10}".format(int(n),int(n)*1,int(n)*2,int(n)*3,int(n)*4,int(n)*5,int(n)*6,int(n)*7,int(n)*8,int(n)*9,int(n)*10)) 

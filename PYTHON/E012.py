@@ -1,0 +1,2 @@
+p = input("Qual o valor do produto que você quer desconto?")
+print("O desconto que consigo para você é de 5%, com isso o valor sai de R$:{:.2f} reais para R$:{:.2f} reais".format(float(p), float(p)*0.95))

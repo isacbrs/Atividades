@@ -1,0 +1,28 @@
+pessoas = list()
+dados = list()
+mai = men = 0
+while True:
+    dados.append(str(input('Nome:')))
+    dados.append(float(input('Peso:')))
+    if len(pessoas) == 0:
+        mai = men = dados[1]
+    else:
+        if dados[1] > mai:
+            mai = dados[1]
+        if dados[1] < men:
+            men = dados[1]                 
+    pessoas.append(dados[:])
+    dados.clear()
+    cont = input('Quer adicionar outra pessoas?[S/N]').upper()
+    if cont == str('N'):
+        break
+print('-='*40)    
+print(f'{len(pessoas)} pessoas foram cadastradas!')
+print(f'O maior peso foi de {mai}. Esse peso foi de:', end='')
+for p in pessoas:
+    if p[1] == mai:
+        print(f'{p[0]}', end=' ')
+print(f'\nO menor peso foi de {men}. Esse peso foi de:', end='') 
+for p in pessoas:
+    if p[1] == men:
+        print(f'{p[0]}', end=' ')
