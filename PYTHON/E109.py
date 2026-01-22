@@ -1,0 +1,10 @@
+from módulos import moeda
+n = int(input('Qual é o valor?'))
+dob = moeda.dobro(n)
+aum = moeda.aumentar(n)
+di = moeda.diminuir(n)
+met = moeda.metade(n)
+print(f'aumentanod 10%¨de {moeda.moedas(n)} temos: {moeda.moedas(aum)}')
+print(f'diminuindo 10%¨de {moeda.moedas(n)} temos: {moeda.moedas(di)}')
+print(f'O dobro de {moeda.moedas(n)} é {moeda.moedas(dob)}')
+print(f'A metade de {moeda.moedas(n)} é {moeda.moedas(met)}')
