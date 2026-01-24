@@ -1,0 +1,15 @@
+Passo 1: Abrir a base de dados (Importar a base de dados)
+Passo 2: Visualizar a base de dados
+        -entender as informações disponíveis
+        -possiveis problemas/erros na base de dados  
+Passo 3: Corrigir os problemas da BD(tratamento de dados)        
+Passo 4: Analise Inicial(entender quantos clientes cancelaram)
+        -Quantidade
+        -Porcentagem  
+Passo 5: Analise detalhada (causa do canselamento dos clientes(como cada coluna impacta no cancelamento))    
+
+Novidades:
+da pra dar um apelido para pacotes para escrever menos
+como:
+import panda as pb 
+"as pb" serve pra transforma o nome 'panda' em pb
