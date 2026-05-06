@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Formulários</title>
+</head>
+<!--
+    INPUT 
+        text
+        email
+        password
+        checkbox
+        radio
+        reset
+        submit
+        file 
+    SELECT
+        Opção de selecionar algo
+    TEXTAREA
+        Uma área para colocar algum conteudo(texto)     
+-->
+<body>
+    <center><h1>Formulário</h1></center>
+    <hr>
+    <h2>Preencha seus dados</h2>
+    <form action="" method="">
+        <label>Nome:</label>
+        <input type="text" name="nome" size="30" maxlength="20" minlength="4" placeholder="Digite seu nome" required>
+        <br><br>
+        <label> Data de Nascimento</label>
+        <input type="date" name="dt-nasc">
+        <br><br>
+        <label>Sexo:</label>
+        <input type="radio" value="feminino" name="sexo" required>Masculino
+        <input type="radio" value="masculino" name="sexo" required>Feminino
+        <br><br>
+
+        <label>Estado Civil:</label>
+        <select name="estd-civ">
+            <option value="solteiro">Solteiro</option>
+            <option value="casado">Casado</option>
+            <option value="viuvo">Viuvo</option>
+            <option">Nao quero declarar</option>
+        </select>
+
+        <br><br>   
+        <label>Endereço:</label>
+        <input type="text" name="Endereco" size="40" placeholder="Digite seu endereço" required>
+        <br><br>
+        <label>E-mail:</label>
+        <input type="email" name="E-mail" size="30" maxlength="100" placeholder="Digite seu E-mail" required>
+        <br><br>
+        
+        <label>Senha: </label>
+        <input type="password" name="Senha" maxlength="10" placeholder="Digite sua senha" required>
+        <label>Confirme Sua Senha:</label>
+        <input type="password" name="ConfirmarSenha" maxlength="10" placeholder="Confirme sua senha" required>
+        <br><br>
+
+        <h4> Áreas de Interesse profissional</h4>
+        <input type="checkbox" value="Informatica" name="area-inter"><label>Informática</label><br>
+        <input type="checkbox" value="Inglês" name="area-inter"><label>Inglês</label><br>
+        <input type="checkbox" value="Dolar" name="area-inter"><label>Dolar</label>
+        <br><br>
+        
+        
+        <br><br>
+        <input type="reset">
+        <input type="submit" >
+
+    </form>
+</body>
+</html>
